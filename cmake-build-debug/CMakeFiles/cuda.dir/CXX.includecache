@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wy/CLionProjects/cuda/fputcget.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+cstring
+-
+vector
+-
+string
+-
+
+/home/wy/CLionProjects/cuda/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+hiredis/hiredis.h
+-
+fputcget.cpp
+/home/wy/CLionProjects/cuda/fputcget.cpp
+
