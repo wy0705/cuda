@@ -4,3 +4,18 @@ aaaa
 bbbb
 ssss
 ffff
+表名偏移量表名类型key
+
+n  id 10  sex nv
+
+select sex from n where id=10
+
+
+1n
+
+1n1231  王颖   18 1
+1n1232  女
+1n1233 朱鑫
+ n  age name id
+  1n|18|1  wy
+  1n|wy|18 nv
